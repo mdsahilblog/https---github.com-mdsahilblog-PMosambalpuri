@@ -11,7 +11,7 @@ class Index extends Component
     public function rules()
     {
         return [
-           //nothing you can edit here
+           //nothing you can edit here today
         ];
     }
 

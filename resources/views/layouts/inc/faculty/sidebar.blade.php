@@ -37,7 +37,7 @@
             <a href="{{url('admin/brands')}}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Brands
+                Academics
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
@@ -46,7 +46,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Category
+                Admission
                 <i class="fas fa-angle-left right"></i>
                 <!-- <span class="badge badge-info right">6</span> -->
               </p>
@@ -70,7 +70,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
-                Charts
+                Blogging
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -99,7 +99,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tree"></i>
               <p>
-                UI Elements
+                Employee
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -158,7 +158,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>
-                Forms
+                Expenditure
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -193,7 +193,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
-                Tables
+                Feedback
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -223,7 +223,7 @@
             <a href="pages/calendar.html" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
-                Calendar
+                Inventory
                 <span class="badge badge-info right">2</span>
               </p>
             </a>
@@ -232,7 +232,7 @@
             <a href="pages/gallery.html" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
-                Gallery
+                Leave
               </p>
             </a>
           </li>
@@ -240,7 +240,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
-                Mailbox
+               Library
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -269,7 +269,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-book"></i>
               <p>
-                Pages
+                Online Examination
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -336,7 +336,7 @@
               <li class="nav-item">
                 <a href="pages/examples/login.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Login</p>
+                  <p>Payroll</p>
                 </a>
               </li>
               <li class="nav-item">

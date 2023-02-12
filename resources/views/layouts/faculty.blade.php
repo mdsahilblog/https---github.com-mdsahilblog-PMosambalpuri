@@ -37,41 +37,14 @@
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 
-<div class="wrapper">
-
-    @include('layouts.inc.admin.navbar')
-    @include('layouts.inc.admin.sidebar')
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-
-         <!-- Content Header (Page header) -->
-        <div class="content-header">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                <div class="col-sm-6">
-                    @if(session('message'))
-                        <h4 class="alert alert-success">{{session('message')}}</h4>
-                    @endif
-                    <h1 class="m-0 text-dark">Dashboard</h1>
-                </div><!-- /.col -->
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v1</li>
-                    </ol>
-                </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
-        </div>
-        <!-- /.content-header -->
-        <!-- Main content -->
-        @yield('content')
-        <!-- Main content ends -->
-    </div><!-- content wrapper ends -->
-
-</div><!-- wrapper ends all-->
-
+    <div class="wrapper">        
+        @include('layouts.inc.faculty.navbar')
+        @include('layouts.inc.faculty.sidebar')
+        <main class="py-4">
+            @yield('content')
+        </main>
+ 
+    </div><!-- wrapper ends all-->
 <!-- Footer -->
 <footer class="main-footer">
     <strong>Copyright &copy; 2023 <a href="/">{{ config('app.name', 'Laravel') }}</a>.</strong>
@@ -81,7 +54,8 @@
     </div>
 </footer>
 <!-- Footer ends -->
-
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-3.6.3.min.js') }}"></script>
 <!-- jQuery -->
 <script src="{{ asset('admin/plugins/jquery/jquery.min.js') }}"></script>
 <!-- jQuery UI 1.11.4 -->
@@ -118,6 +92,6 @@
 <script src="{{ asset('admin/dist/js/demo.js') }}"></script>
 
 @livewireScripts
-@stack('script')
+
 </body>
 </html>
